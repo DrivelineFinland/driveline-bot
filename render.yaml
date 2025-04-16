@@ -4,4 +4,4 @@ services:
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python3 photo_enabled_bot_final.py"
+    startCommand: "python3 ./photo_enabled_bot_final.py"
