@@ -3,5 +3,5 @@ services:
     name: driveline-telegram-bot
     env: python
     plan: free
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python3 ./photo_enabled_bot_final.py"
+    buildCommand: pip install python-dotenv yagmail python-telegram-bot==20.7
+    startCommand: python3 ./photo_enabled_bot_final.py
