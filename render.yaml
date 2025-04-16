@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: driveline-telegram-bot
-    env: python
-    plan: free
-    buildCommand: "poetry install"
-    startCommand: "poetry run python photo_enabled_bot_final.py"
