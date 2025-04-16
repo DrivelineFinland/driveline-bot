@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: driveline-telegram-bot
+    name: driveline-telegram-bot-2
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
